@@ -51,8 +51,20 @@ html > body {
   color: #F3BF99;
 }
 
+p {
+  margin-bottom: 0.5rem !important;
+}
+
 .email {
   font-size: 0.7em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.email:hover {
+  font-weight: bold;
+  color: #918E9B;
+  font-style: italic;
 }
 
 .contact-buttons {
@@ -158,7 +170,7 @@ html > body {
 
 .linkedin-btn:hover, .linkedin-btn:focus, .linkedin-btn:active,
 .email-btn:hover, .email-btn:focus, .email-btn:active {
-  color: white;
+  color: #FFFFFF;
   -webkit-box-shadow: inset 0px 0px 0px 1px #FFFFFF;
           box-shadow: inset 0px 0px 0px 1px #FFFFFF;
 }
